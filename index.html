@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Seker otomat</title>
+</head>
+
+<body class="bg-light d-flex justify-content-center col-lg-10">
+
+
+    <main role="main" class="container">
+        <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm">
+            <img class="mr-2" src="/docs/4.4/assets/brand/bootstrap-outline.svg" alt="" width="48" height="48">
+            <div class="lh-100">
+                <h6 class="mb-0 text-white lh-100">Seker Otomat</h6>
+                <small>Since 1990</small>
+            </div>
+        </div>
+
+        <div class="row bg-white rounded shadow-sm sekerBox">
+            <div class="col-lg-2">
+                <div class="cardBox" style="width:8rem;height: 19rem;">
+                    <img src="./img/lokum-png-3.png" class="card-img-top">
+                    <div class="card-body-box">
+                        <a href="#" class="btn btn-primary btn-bottom lokum h-60">Lokum</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-2">
+                <div class="cardBox" style="width:8rem;height: 19rem;">
+                    <img src="./img/akide.png" class="card-img-top">
+                    <div class="card-body-box">
+                        <a href="#" class="btn btn-primary akide">Akide</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="cardBox" style="width:8rem;height: 19rem;">
+                    <img src="./img/jelibon.png" class="card-img-top">
+                    <div class="card-body-box">
+                        <a href="#" class="btn btn-primary jelibon">jelibon</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="cardBox" style="width:8rem;height: 19rem;">
+                    <img src="./img/b-lolipop.svg" class="card-img-top">
+                    <div class="card-body-box">
+                        <a href="#" class="btn btn-primary b-lolipop">Burgulu Lilopop</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="cardBox" style="width:8rem;height: 19rem;">
+                    <img src="./img/y-lollipop.png" class="card-img-top">
+                    <div class="card-body-box">
+                        <a href="#" class="btn btn-primary y-lolipop">Yuvarlak Lolipop</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-white rounded shadow-sm basketBox">
+            <div class="col-lg-3">
+                <div class="cardBox" style="width:15rem;height: 25rem;">
+                    <p><a class="btn btn-outline-primary" href="#" role="button">
+                            <basket>Alis veris sepeti : </basket>
+                        </a></p>
+                </div>
+            </div>
+
+
+
+
+
+            <package></package>
+            <button>pay</button>
+
+
+
+
+
+
+            <div class="row">
+                <div class="d-flex flex-direction my-3 p-3 bg-white rounded shadow-sm">
+                    <h6 class="border-bottom border-gray pb-2 mb-0">Recent updates</h6>
+                    <product-category class="product-category">
+                    </product-category>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+
+    <script src="./src/model/CandyMachine.js"></script>
+    <script src="./src/model/Candy.js"></script>
+    <script src="./src/model/Package.js"></script>
+    <script src="./src/view/AppView.js"></script>
+    <script src="./src/app.js"></script>
+</body>
+
+</html>
